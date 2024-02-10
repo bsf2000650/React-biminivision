@@ -87,7 +87,7 @@ export default function Home() {
 
       {/* Free starts here */}
       <section className="free">
-        <video id="backgroundVideo" autoPlay muted className="video">
+        <video loop id="backgroundVideo" autoPlay muted className="video">
           <source
             src={require("../videos/pexels_videos_1918465_(2160p).mp4")}
           />
